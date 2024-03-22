@@ -1,0 +1,281 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#content {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#result {
+    background-image: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#result p {
+    padding-top: 10px;
+    color: hsl(241, 100%, 89%);
+}
+
+#res-score {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 45%;
+    margin-left: 25%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#res-score h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#res-score p {
+ margin-top: 0;
+ font-size: 14px;
+}
+
+#res-sum {
+    padding: 25px;
+}
+
+#res-sum h1 {
+    color: white;
+}
+
+#res-sum p {
+    font-size: 14px;
+}
+
+#summary {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+#summary h1 {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#reaction {
+    background-color: hsla(0, 100%, 67%, 10%);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#reaction img {
+    float: left;
+    margin : 0;
+    margin-top: 3px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#reaction p {
+    margin: 0;
+    margin-left: 10%;
+    color: hsl(0, 100%, 67%) ;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#reaction span {
+    font-size: 14px;
+    float: right;
+    line-height: 24px;
+    color: gray;
+}
+
+#memory {
+    background-color: hsla(39, 100%, 56%, 10%);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+#memory img {
+    float: left;
+    margin : 0;
+    margin-top: 3px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#memory p {
+    margin: 0;
+    margin-left: 10%;
+    color: hsl(39, 100%, 56%) ;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#memory span {
+    font-size: 14px;
+    float: right;
+    line-height: 24px;
+    color: gray;
+}
+
+#verbal {
+    background-color: hsla(166, 100%, 37%, 10%);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#verbal img {
+    float: left;
+    margin : 0;
+    margin-top: 3px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#verbal p {
+    margin: 0;
+    margin-left: 10%;
+    color: hsl(166, 100%, 37%) ;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#verbal span {
+    font-size: 14px;
+    float: right;
+    line-height: 24px;
+    color: gray;
+}
+
+#visual {
+    background-color: hsla(234, 85%, 45%, 10%);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#visual img {
+    float: left;
+    margin : 0;
+    margin-top: 3px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#visual p {
+    margin: 0;
+    margin-left: 10%;
+    color: hsl(234, 85%, 45%) ;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#visual span {
+    font-size: 14px;
+    float: right;
+    line-height: 24px;
+    color: gray;
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    text-align: center;
+    width: 90%;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    align-self: flex-end;
+}
+
+button:hover {
+    background-color: hsl(241, 81%, 54%);
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1000px) {
+    #content {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 8%;
+        border-radius: 15px;
+        box-shadow: 10px 10px 25px hsl(241, 100%, 89%);
+    }
+
+    #result {
+        width: 50%;
+        float: left;
+        border-radius: 15px;
+        height: 100%;
+    }
+
+    #summary {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width:600px) {
+    #content {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20%;
+        border-radius: 15px;
+        box-shadow: 10px 10px 25px hsl(241, 100%, 89%);
+        height: 100%;
+    }
+
+    #result {
+        width: 50%;
+        float: left;
+        border-radius: 15px;
+        height: 100%;
+    }
+
+    #summary {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
